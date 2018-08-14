@@ -1,0 +1,38 @@
+=============== Aug 13, 2018 (EDT) ===============
+20:51:31.453339 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:51:31.461656 db@open opening
+20:51:31.462344 version@stat F·[] S·0B[] Sc·[]
+20:51:31.468555 db@janitor F·2 G·0
+20:51:31.468594 db@open done T·6.905376ms
+=============== Aug 13, 2018 (EDT) ===============
+20:51:47.961956 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:51:47.962112 version@stat F·[] S·0B[] Sc·[]
+20:51:47.962124 db@open opening
+20:51:47.962221 journal@recovery F·1
+20:51:47.965825 journal@recovery recovering @1
+20:51:47.968558 memdb@flush created L0@2 N·9 S·549B "Hp'..j\xd9\xe8,v3":"r\x00\x00..j\xd9\xe8,v5"
+20:51:47.971272 version@stat F·[1] S·549B[549B] Sc·[0.25]
+20:51:47.977020 db@janitor F·3 G·0
+20:51:47.977045 db@open done T·14.873712ms
+20:52:48.469854 db@close closing
+20:52:48.469902 db@close done T·46.848µs
+=============== Aug 13, 2018 (EDT) ===============
+21:49:51.976238 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:49:51.976360 version@stat F·[1] S·549B[549B] Sc·[0.25]
+21:49:51.976368 db@open opening
+21:49:51.976400 journal@recovery F·1
+21:49:51.979159 journal@recovery recovering @3
+21:49:51.982731 memdb@flush created L0@5 N·2 S·238B "Dat..ion,v11":"Las..der,v12"
+21:49:51.985576 version@stat F·[2] S·787B[787B] Sc·[0.50]
+21:49:51.988669 db@janitor F·4 G·0
+21:49:51.988696 db@open done T·12.319086ms
+=============== Aug 13, 2018 (EDT) ===============
+21:49:57.943190 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:49:57.943317 version@stat F·[2] S·787B[787B] Sc·[0.50]
+21:49:57.943327 db@open opening
+21:49:57.943375 journal@recovery F·1
+21:49:57.945400 journal@recovery recovering @6
+21:49:57.948453 memdb@flush created L0@8 N·2 S·238B "Dat..ion,v14":"Las..der,v15"
+21:49:57.948934 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+21:49:57.952559 db@janitor F·5 G·0
+21:49:57.952580 db@open done T·9.244987ms
